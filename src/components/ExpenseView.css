@@ -1,0 +1,18 @@
+.expense--table_container {
+  max-height: 300px;
+}
+
+.expense--table_container thead,
+.expense--table_container tfoot {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.expense--table_container tfoot {
+  bottom: 0;
+}
+
+.action-icons span {
+  cursor: pointer;
+}
